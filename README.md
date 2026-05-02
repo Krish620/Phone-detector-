@@ -1,2 +1,23 @@
-# Phone-detector-
-While reading if you use phone it scold you in verry funny way.
+📵 AI Phone Detection & Alert System
+This is a Python-based application that uses Computer Vision (YOLOv8) to detect mobile phones in a live webcam feed. When a phone is detected, it triggers an audio alarm.
+
+This tool is useful for Study Sessions, No-Phone Zones, or Focus Time to prevent digital distractions.
+
+🚀 Features
+Real-time Detection: Uses the YOLOv8 Nano model for fast and accurate detection.
+Audio Alert: Plays an alarm/sound file when a phone is visible.
+Performance Optimized: Includes frame skipping and image resizing to run smoothly on standard laptops.
+Customizable: Easily change detection sensitivity, cooldown timers, and screen resolution.
+State-Aware Audio: Audio stops immediately when the phone is removed from the frame.
+🛠️ Prerequisites
+Python 3.8 or higher installed on your system.
+A Webcam.
+📦 Installation
+Clone or Download this repository/folder.
+Open your terminal/command prompt in the project folder.
+Install the required Python libraries:
+pip install opencv-python ultralytics pygame
+
+
+## Run
+python app.py
